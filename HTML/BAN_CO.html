@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> BÀN CỜ </title>
+  <link href="../Image/Icon/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="../CSS/source.css">
+  
+  <style>
+
+  body
+  {
+    background: url(../Image/3d-glossy-chess-wallpaper.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .border
+  {
+  	border-width: 5px; border-color: #CFCFCF; border-style: groove;
+  	padding: 20px;
+  	background-color: white; 
+
+  	-moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius: 10px;
+
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .black
+  {
+    background-color: #6C390F;
+  }
+
+  .white
+  {
+  	background-color: white;
+  }
+
+  table
+  {
+  	background-color: white;
+  }
+
+  td
+  {
+  	height: 70px;
+  	width: 70px;
+  }
+
+  .flex-box
+   {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: column;
+	  flex-direction: column;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+   }
+
+   .fixed
+   {
+   	position: fixed;
+   	top: 10px;
+   	right: 40px;
+   	color: #9C9C9C;
+   	font-size: 25px;
+   }
+
+   .fixed2
+   {
+    position: fixed;
+    right: 40px;
+    top: 90px;
+   }
+
+   label
+   {
+    color: white;
+   }
+
+   .btnChess
+   {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #DDC488;
+
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius: 10px;
+
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius: 10px;
+
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    border-top-right-radius: 10px;
+
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius: 10px;
+   }
+
+   .btnChess:hover
+   {
+    background: #FFC125;
+    color: white;
+   }
+
+   .btnChess:active
+   {
+    background: #00CDCD; 
+   }
+
+   .flex-box
+   {
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+   }
+
+  </style>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+    function showImage()
+    {
+        var elems = document.getElementsByClassName('showHide');
+        for (var i=0; i<elems.length; i++)
+        {
+            if (elems[i].style.visibility == 'visible' || elems[i].style.visibility == "")
+            {
+                elems[i].style.visibility = 'hidden';
+            }
+            else if(elems[i].style.visibility == 'hidden')
+            {
+                elems[i].style.visibility = 'visible';
+            }
+        }
+    }
+</script>
+
+<div class = "fixed2 flex-box">
+   <label for = "lbl1" style = "margin-bottom: 10px;"> <b> QUÂN CỜ </b> </label> <input type = "button" class = "btnChess" value = "ẨN/HIỆN" id = "showHideButton" onclick = "showImage();"/> 
+</div>
+
+                         
+<div class = "flex-box"> <br/> <h1 style = "color: #9C9C9C;"> BÀN CỜ VUA </h1> <br/>
+<section class = "border">
+<table border = "1">
+	<tr> <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/rook2.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/knight1.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/bishop2.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/queen1.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/king1.jpg" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/bishop1.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/knight2.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/rook1.png" width = "65px" height: "65px"/> </center> </div> </td> </tr>
+
+	<tr> <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn1.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn2.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn1.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn2.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn1.png" width = "65px" height: "65px"/> </center> </div> </td>
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn2.png" width = "65px" height: "65px"/> </center> </div> </td>
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn1.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn2.png" width = "65px" height: "65px"/> </center> </div> </td> </tr>	
+
+	<tr> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> </tr>
+
+	<tr> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> </tr>	
+
+	<tr> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> </tr>
+
+	<tr> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> <td class = "black"> </td> <td class = "white"> </td> </tr>	
+
+	<tr> <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn4.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn3.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn4.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn3.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn4.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn3.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn4.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/pawn3.png" width = "65px" height: "65px"/> </center> </div> </td> </tr>
+
+
+	<tr> <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/rook3.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/knight4.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/bishop3.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/queen2.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/king2.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/bishop4.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "black"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/knight3.png" width = "65px" height: "65px"/> </center> </div> </td> 
+  <td class = "white"> <div class="topSide showHide"> <center> <img src = "../Image/Chess/rook4.png" width = "65px" height: "65px"/> </center> </div> </td> </tr>
+
+</table>
+</section>
+</div> <br/> <br/>
+
+<div class = "border bgcmt" style = "text-align: left">
+<div> 
+<form method = "post" action = "#">
+<fieldset> <legend> Bình Luận </legend>
+
+<p>
+  <label for = "lblName"> Name: </label> <br/>
+  <input type = "text" name = "txtName" id = "txtName" title = "Tên hiển thị" class = "auto-hint radius-txt" size = "60" maxlength = "30" /> <br/>
+</p>
+
+<p>
+  <label for = "lblEmail"> E-mail: </label> <br/>
+  <input type = "text" name = "txtEmail" id = "txtEmail" title = "E-mail" class = "auto-hint radius-txt" size = "60" maxlength = "100" /> <br/>
+</p>
+
+<p>
+  <label for = "lblCmt"> Comment: </label> <br/>
+  <textarea cols="80" rows="8" name = "txtCmt" id = "txtCmt" class = "auto-focus radius-txt"></textarea> <br/>
+</p>
+
+<input type = "submit" class = "btn" name = "btnCmt" value = "Gửi Bình Luận" /> 
+<input type = "reset" class = "btn" name = "btnReset" value = "Reset" />
+
+</fieldset>
+</form>
+</div>
+</div>
+
+<a href = "1312606-1312671.html" class = "fixed"> HOME </a>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src = "../JS/source.js"> </script>
+</body>
+
+</html>
