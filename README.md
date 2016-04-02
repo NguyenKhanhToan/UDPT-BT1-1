@@ -1,8 +1,9 @@
-# BT-UDPT-1 - *Name of your app*
+# BT-UDPT-1 - *Demo Ứng dụng phân tán*
 
-**Name of your app** là một bài tập 1 tại môn UDPT.
+**Demo Ứng dụng phân tán** là một bài tập 1 tại môn UDPT.
 
-Thành viên: **Tên và mã số sinh viên thành viên**
+Thành viên: Trấn Nhật Tuấn -1312671
+            Nguyễn Khánh Toàn - 1312606
 
 URL: **URL hosting của bài tập**
 
@@ -13,7 +14,7 @@ Yêu cầu **GIT**:
 * [ ] Có sử dụng GIT.
 * [ ] Sử dụng GIT trên 1 branch.
 * [ ] Sử dụng GIT theo Centralized Workflow.
-* [ ] Sử dụng GIT theo Feature Branch Workflow.
+*  Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
