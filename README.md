@@ -33,6 +33,10 @@ Yêu cầu **thiết kế**:
 
 Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 * Có dùng javascript
+* Dùng iframe nhúng video clip từ youtube
+* Cho phép người dùng gửi liên hệ cho nhóm qua màn hình liên hệ
+* Thể hiện danh sách từng bài blog của từng thành viên
+* Thể hiện màn hình để lại comment
 
 ## Demo
 
