@@ -5,7 +5,7 @@
 Thành viên: Trấn Nhật Tuấn -1312671
             Nguyễn Khánh Toàn - 1312606
 
-URL: **URL hosting của bài tập**
+URL: http://nhattuan1908.github.io/UDPT-BT1
 
 ## Yêu cầu
 
