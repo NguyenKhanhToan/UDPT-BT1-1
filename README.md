@@ -1,11 +1,11 @@
 # BT-UDPT-1 - *Demo Ứng dụng phân tán*
 
-**Demo Ứng dụng phân tán** là một bài tập 1 tại môn UDPT.
+**Demo Ứng dụng phân tán** là bài tập 1 tại môn UDPT.
 
 Thành viên: Trấn Nhật Tuấn -1312671
             Nguyễn Khánh Toàn - 1312606
 
-URL: **URL hosting của bài tập**
+URL: http://nhattuan1908.github.io/UDPT-BT1
 
 ## Yêu cầu
 
@@ -19,27 +19,30 @@ Yêu cầu **GIT**:
 
 Yêu cầu **thiết kế**:
 
-* [ ] Thiết kế theo table.
-* [ ] Thiết kế với div.
-* [ ] Thiết kế nâng cao
-    * [ ] Navigation, header, footer, sidebar.
-    * [ ] Các hiệu ứng: hover, focus,...
-* [ ] Thiết kế chạy trên nhiều trình duyệt
-    * [ ] IE
-    * [ ] Firefox
-    * [ ] Chrome
-    * [ ] Icon, màu sắc,...
+* Thiết kế theo table.
+* Thiết kế với div.
+* Thiết kế nâng cao
+    *  Navigation, header, footer, sidebar.
+    *  Các hiệu ứng: hover, focus,...
+* Thiết kế chạy trên nhiều trình duyệt
+    * IE
+    * Firefox
+    * Chrome
+    * Icon, màu sắc,...
 * [ ] Thiết kế responsive
 
 Liệt kê các **yêu cầu nâng cao** đã thực hiện:
-
+* Có dùng javascript
+* Dùng iframe nhúng video clip từ youtube
+* Cho phép người dùng gửi liên hệ cho nhóm qua màn hình liên hệ
+* Thể hiện danh sách từng bài blog của từng thành viên
+* Thể hiện màn hình để lại comment
 
 ## Demo
 
 Link ảnh GIF demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
-
+https://github.com/nhattuan1908/UDPT-BT1/blob/KhanhToan/demo.gif
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
 
