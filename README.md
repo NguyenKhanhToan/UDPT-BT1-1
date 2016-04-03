@@ -21,10 +21,10 @@ Yêu cầu **thiết kế**:
 
 * Thiết kế theo table.
 * Thiết kế với div.
-* [ ] Thiết kế nâng cao
+* Thiết kế nâng cao
     *  Navigation, header, footer, sidebar.
     *  Các hiệu ứng: hover, focus,...
-* [ ] Thiết kế chạy trên nhiều trình duyệt
+* Thiết kế chạy trên nhiều trình duyệt
     * IE
     * Firefox
     * Chrome
