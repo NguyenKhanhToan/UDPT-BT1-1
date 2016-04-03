@@ -1,6 +1,6 @@
 # BT-UDPT-1 - *Demo Ứng dụng phân tán*
 
-**Demo Ứng dụng phân tán** là một bài tập 1 tại môn UDPT.
+**Demo Ứng dụng phân tán** là bài tập 1 tại môn UDPT.
 
 Thành viên: Trấn Nhật Tuấn -1312671
             Nguyễn Khánh Toàn - 1312606
