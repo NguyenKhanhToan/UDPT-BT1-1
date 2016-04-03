@@ -11,10 +11,10 @@ URL: http://nhattuan1908.github.io/UDPT-BT1
 
 Yêu cầu **GIT**:
 
-* [ ] Có sử dụng GIT.
-* [ ] Sử dụng GIT trên 1 branch.
-* [ ] Sử dụng GIT theo Centralized Workflow.
-*  Sử dụng GIT theo Feature Branch Workflow.
+* Có sử dụng GIT.
+* Sử dụng GIT trên 1 branch.
+* Sử dụng GIT theo Centralized Workflow.
+* Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
